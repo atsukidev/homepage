@@ -52,6 +52,18 @@ a:hover {
     filter: grayscale(100%);
 }
 
+#how-we-work-inside {
+    background-image: url("../images/background - wrok.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-small-h1 {
+    height: 6vh;
+    vertical-align: middle;
+    image-rendering: crisp-edges;
+}
+
 #footer {
     background-color: #fafafa;
 }
@@ -59,4 +71,8 @@ a:hover {
 /* Animations */
 html {
     --animate-duration: 1s;
+}
+
+.animate__bounce {
+    --animate-duration: 2s;
 }
