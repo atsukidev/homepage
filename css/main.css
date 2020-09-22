@@ -1,0 +1,62 @@
+/* Default Replacers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body, a, p {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+a:hover {
+    color: #fafafa;
+}
+
+.btn-primary {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+}
+
+.btn-primary:hover {
+    background-color: #6a0080;
+    border-color: #6a0080;
+}
+
+.fab:hover {
+    color: #9c27b0;
+}
+
+/* Main Styles */
+.brand-svg {
+    height: 1.3rem;
+    margin-top: -1vh;
+}
+
+.navbar-transparent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1%;
+    z-index: 9;
+}
+
+#main-section {
+    background-image: url("../images/background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.tech-logo-slide {
+    max-height: 8vh;
+    filter: grayscale(100%);
+}
+
+#footer {
+    background-color: #fafafa;
+}
+
+/* Animations */
+html {
+    --animate-duration: 1s;
+}
