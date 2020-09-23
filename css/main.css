@@ -77,6 +77,14 @@ a:hover {
     color: #43a047 !important;
 }
 
+.floating-element-wrapper {
+    perspective: 500px;
+}
+
+.floating-element {
+    transform-style: preserve-3d;
+}
+
 #footer-bottom {
     background-image: url("../images/backgrounds/background - footer.svg");
     background-size: cover;
