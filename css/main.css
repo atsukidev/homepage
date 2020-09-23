@@ -3,8 +3,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
 }
 
-html, body, a, p {
+html, body, p {
     font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
     color: #000000;
 }
 
@@ -72,8 +77,10 @@ a:hover {
     color: #43a047 !important;
 }
 
-#footer {
-    background-color: #fafafa;
+#footer-bottom {
+    background-image: url("../images/backgrounds/background - footer.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Animations */
