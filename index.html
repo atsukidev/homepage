@@ -56,7 +56,7 @@
                 <p class="lead">
                     We are a startup focused on people-first development,
                     creating cloud-native software solutions for companies and non-profit.
-                    <a class="btn btn-primary mt-4" href="https://www.froala.com">Speak with a Human</a>
+                    <a class="btn btn-primary mt-4" href="https://www.froala.com">Talk with a Human</a>
                 </p>
             </div>
             <div class="col-10 col-sm-6 col-md-5 col-lg-6 m-auto pt-5 pt-md-0 animate__animated animate__slideInRight">
@@ -113,8 +113,45 @@
     </div>
 </section>
 
-<section class="p-5">
-    <div class="container align-items-center justify-content-center d-flex">
+<section id="github-projects" class="p-5">
+    <div id="projects" class="container row justify-content-end pb-4">
+        <div class="col-1">
+            <h1 class="vertical-text">PROJECTS</h1>
+        </div>
+        <div class="col-10">
+            <div id="apollo" class="container card shadow-sm">
+                <div class="card-body p-4">
+                    <h6 class="card-subtitle mb-2 text-muted non-profit">Non-profit</h6>
+                    <h5 class="card-title">Apollo Project</h5>
+                    <p class="card-text">
+                        Apollo is a non-profit project with the objective of centralizing data on missing persons in
+                        Brazil,
+                        using various sources including social networks. Additionally, people registered in the system
+                        will be replicated in
+                        other regional systems. This system will have notifications and other alerts if someone
+                        disappears in the registered
+                        user's area.</p>
+                    <h5 id="apollo-ts" class="mb-0">
+                        <button class="btn btn-outline-primary" data-toggle="collapse" data-target="#apollo-ts-desc"
+                                aria-expanded="true" aria-controls="apollo-ts-desc">
+                            TechStack
+                        </button>
+                    </h5>
+
+                    <div id="apollo-ts-desc" class="collapse" aria-labelledby="apollo-ts" data-parent="#apollo">
+                        <div class="card-body">
+                            Apollo uses Microservices in Quarkus, AWS Lambda, Amazon DynamoDB as a Key/Value database,
+                            Elasticsearch, RabbitMQ as a messaging service. In the frontend, we use Typescript, Angular,
+                            SSR.
+                            In both modules we use Docker and Github Actions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container align-items-center justify-content-center d-flex pt-5">
         <div class="row justify-content-center text-center">
             <div class="col-12 col-md-10 col-lg-11">
                 <h1>
