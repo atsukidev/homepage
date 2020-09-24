@@ -27,10 +27,6 @@ a:hover {
     border-color: #6a0080;
 }
 
-.fab:hover {
-    color: #9c27b0;
-}
-
 /* Main Styles */
 .brand-svg {
     height: 1.3rem;
@@ -86,7 +82,7 @@ a:hover {
 }
 
 .primary-link:hover {
-    color: #0d6efd;
+    color: #9c27b0;
 }
 
 #footer-bottom {
