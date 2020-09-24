@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+	$("#contact-form-internal").submit(function(e){
+		$('#modalSuccessForm').modal('show');
+		return false;
+	});
+
 	// Floating image on Hero
 	const wrapper = $(".floating-element-wrapper");
 	wrapper.on('mousemove', function (e) {
