@@ -85,6 +85,10 @@ a:hover {
     transform-style: preserve-3d;
 }
 
+.primary-link:hover {
+    color: #0d6efd;
+}
+
 #footer-bottom {
     background-image: url("../images/backgrounds/background - footer.svg");
     background-size: cover;
