@@ -39,19 +39,29 @@ a:hover {
     margin-top: -1vh;
 }
 
+
+
 .navbar-transparent {
-    position: absolute;
+    background: #f91b96;
     top: 0;
     right: 0;
     left: 0;
     padding: 1%;
     z-index: 9;
+
+    padding: 10px;
 }
 
+
 #main-section {
+
+    
     background-image: url("../images/backgrounds/background.png");
     background-size: auto;
     background-repeat: no-repeat;
+
+    margin-top: -1px;
+
 }
 
 .tech-logo-slide {
@@ -96,6 +106,14 @@ a:hover {
     height: 400px;
 }
 
+.contact{
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #footer-bottom {
     background-image: url("../images/backgrounds/background - footer.svg");
     background-size: cover;
@@ -109,4 +127,17 @@ html {
 
 .animate__bounce {
     --animate-duration: 2s;
+}
+
+
+@media (min-width: 700px){
+    .navbar-transparent{
+        position: absolute;
+        background: none;
+    }
+
+    .contact{
+        flex-direction: unset;
+        justify-content: space-evenly;
+    }
 }
